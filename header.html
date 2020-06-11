@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9c50925554.js" crossorigin="anonymous"></script>
+    <title>BEM practice</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header__inner">
+            <div class="tabzilla">
+                <a href="#" class="tabzilla__link">
+                    <span class="blind">mozilla</span>
+                </a>
+            </div>
+            <div class="header__logo">
+                <div class="logo">
+                    <a href="#" class="logo__link">
+                        <h1 class="blind">MDN</h1>
+                    </a>
+                </div>
+            </div>
+            <div class="header__auth">
+                <div class="auth">
+                    <div class="auth-means">
+                        <p class="auth-means__text">Sign in with</p>
+                        <ul class="auth-means__list">
+                            <li class="auth-means__item auth-means__item_persona">
+                                <a href="#">
+                                    <i class="fa fa-user"></i>
+                                    <span class="blind">Persona</span>
+                                </a>
+                            </li>
+                            <li class="auth-means__item auth-means__item_github">
+                                <a href="#">
+                                    <i class="fa fa-github"></i>
+                                    <span class="blind">Github</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="auth-picker">
+                        <ul class="auth-picker__list">
+                            <li class="auth-picker__item">
+                                <a href="#">
+                                    <i class="fa fa-user"></i>
+                                    <span>Persona</span>
+                                </a>
+                            </li>
+                            <li class="auth-picker__item">
+                                <a href="#">
+                                    <i class="fa fa-github"></i>
+                                    <span>Github</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">
+                            <span>Web Platform</span>
+                            <i class="fa fa-caret-down"></i>
+                        </a>
+                        <div class="nav__submenu nav__submenu_col2">
+                            <div class="nav-submenu">
+                                <div class="nav-submenu__column">
+                                    <strong class="nav-submenu__title">Technology</strong>
+                                    <ul class="nav-submenu__list">
+                                        <li class="nav-submenu__item">
+                                            <a href="#" class="nav-submenu__link">HTML</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="nav-submenu__column">
+                                    <strong class="nav-submenu__title">Technology</strong>
+                                    <ul class="nav-submenu__list">
+                                        <li class="nav-submenu__item">
+                                            <a href="#" class="nav-submenu__link">HTML</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <button class="nav-submenu__close">
+                                    <span class="blind">Close submenu</span>
+                                    <i class="fa fa-times-circle"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="nav__submenu">
+
+
+                        </div>
+                        <div class="nav__submenu"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="header__search">
+                <div class="search">
+                    <form>
+                        <div class="search__inner">
+                            <div class="search__title">
+                                <label for="main-search">
+                                    <i class="fa fa-search"></i>
+                                    <span class="blind">Search</span>
+                                </label>
+                            </div>
+                            <input type="text" id="main-search" class="search__input" />
+                            <input type="submit" class="search__button" value="Search" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
