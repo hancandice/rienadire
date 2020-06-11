@@ -1,0 +1,54 @@
+body {
+    margin: 0px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #263343;
+    padding: 8px 12px;
+}
+
+.navbar__logo {
+    font-size: 24px;
+    color: white;
+
+}
+
+.navbar__logo i {
+    color: tomato;
+}
+
+.navbar__menu {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    
+}
+
+.navbar__menu li {
+    padding: 8px 12px;
+}
+
+.navbar__menu li:hover {
+    background-color: #d8c2da;
+    border-radius: 6px;
+}
+
+.navbar__icons {
+    list-style: none;
+    color: white;
+    display: flex;
+
+}
+
+.navbar__icons li {
+    padding: 8px 12px;
+}

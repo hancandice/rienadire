@@ -18,8 +18,8 @@
         + [드림코딩 엘리 2 - 유튜브 코딩](https://www.youtube.com/watch?v=67stn7Pu7s4&list=PLv2d7VI9OotQ1F92Jp9Ce7ovHEsuRQB3Y&index=15)
         + [드림코딩 엘리 3 - 개발자로 취업에 성공하는 포트폴리오 관리법 + Javascript 공부법 tip](https://www.youtube.com/watch?v=3xRpjLZUBeo&list=PLv2d7VI9OotQ1F92Jp9Ce7ovHEsuRQB3Y&index=17)
         + 노마드코더 코코아클론 
+- ### :snake: Django, Python 
     
-
 
     
     
