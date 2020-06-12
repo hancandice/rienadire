@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0px;
     font-family: 'Balsamiq Sans', cursive;
@@ -19,7 +23,6 @@ a {
 .navbar__logo {
     font-size: 24px;
     color: white;
-
 }
 
 .navbar__logo i {
@@ -29,8 +32,7 @@ a {
 .navbar__menu {
     display: flex;
     list-style: none;
-    padding-left: 0;
-    
+    padding-left: 0;    
 }
 
 .navbar__menu li {
@@ -46,9 +48,58 @@ a {
     list-style: none;
     color: white;
     display: flex;
-
+    padding: 0;
 }
 
 .navbar__icons li {
     padding: 8px 12px;
+}
+
+.navbar__toggleBtn {
+    display: none;
+    position: absolute;
+    right: 32px;
+    font-size: 24px;
+    color: #d49466;
+}
+
+
+@media screen and (max-width: 768px) {
+    
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 18px 24px;    
+    }
+
+    .navbar__menu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding-top: 16px;
+    }
+
+    .navbar__menu li {
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .navbar__icons {
+        display: none;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .navbar__toggleBtn {
+        display: block;
+    }
+
+    .navbar__menu.active, 
+    .navbar__icons.active {
+        display: flex;
+    }
+
+
 }
