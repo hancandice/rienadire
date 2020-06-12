@@ -1,3 +1,10 @@
+:root {
+    --text-color: #dee4eb;
+    --background-color: #263343;
+    --accent-color: tomato;
+}
+
+
 * {
     box-sizing: border-box;
 }
@@ -9,24 +16,24 @@ body {
 
 a {
     text-decoration: none;
-    color: white;
+    color: var(--text-color);
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #263343;
+    background-color: var(--background-color);
     padding: 8px 12px;
 }
 
 .navbar__logo {
     font-size: 24px;
-    color: white;
+    color: var(--text-color);
 }
 
 .navbar__logo i {
-    color: tomato;
+    color: var(--accent-color);
 }
 
 .navbar__menu {
@@ -46,7 +53,7 @@ a {
 
 .navbar__icons {
     list-style: none;
-    color: white;
+    color: var(--text-color);
     display: flex;
     padding: 0;
 }
