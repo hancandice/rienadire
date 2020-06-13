@@ -13,6 +13,7 @@
       crossorigin="anonymous"
     ></script>
     <title>Youtube Mobile</title>
+    <script src="main.js" defer></script>
   </head>
 
   <body>
@@ -30,97 +31,106 @@
 
     <!-- Video Player -->
     <section class="player">
-      <video controls src="video/video.mp4"></video>
+      <video controls src="video/youRaiseMeUp_westLife.mp4"></video>
     </section>
-    <!-- Video Info -->
-    <section class="info">
-      <!-- Metadata -->
-      <div class="metadata">
-        <ul class="hashtags">
-          <li>#GeekJeeyoung</li>
-          <li>#CandiceHan</li>
-          <li>#SoftwareEngineer</li>
-          <li>#BelleCoder</li>
-        </ul>
-        <div class="titleAndBtn">
-          <span class="title"
-            >Clone Coding : Youtube Mobile Website | with HTML, CSS, Javascript
-            😻 GeekJeeyoung's project 🧊 #Fun Coding #Happy & Successful Life
-            Maker | Created by _Candice Han_</span
-          >
-          <button class="moreBtn"><i class="fas fa-caret-down"></i></button>
-        </div>
-        <span class="views">1M views 1 month ago</span>
-      </div>
-      <!-- Actions -->
-      <ul class="actions">
-        <li>
-          <button><i class="fas fa-thumbs-up"></i><span>1K</span></button>
-        </li>
-        <li>
-          <button><i class="fas fa-thumbs-down"></i><span>0</span></button>
-        </li>
-        <li>
-          <button><i class="fas fa-share"></i><span>Share</span></button>
-        </li>
-        <li>
-          <button><i class="fas fa-plus"></i><span>Save</span></button>
-        </li>
-        <li>
-          <button>
-            <i class="fab fa-font-awesome-flag"></i><span>Report</span>
-          </button>
-        </li>
-      </ul>
-      <!-- Channel Description -->
-      <div class="channel">
+    <div class="inforAndUpNext">
+      <!-- Video Info -->
+      <section class="info">
+        <!-- Metadata -->
         <div class="metadata">
-          <img src="image/jeeyoung.png" alt="" />
-          <div class="info">
-            <span class="name">GeekJeeyoung by Candice Han</span>
-            <span class="subscribers">1K subscribers</span>
+          <ul class="hashtags">
+            <li>#GeekJeeyoung</li>
+            <li>#CandiceHan</li>
+            <li>#SoftwareEngineer</li>
+            <li>#AwesomeCoder</li>
+          </ul>
+          <div class="titleAndBtn">
+            <span class="title clamp"
+              >Westlife - You Raise Me Up (Official Video) | Clone Coding :
+              Youtube Mobile Website | with HTML, CSS, Javascript 😻
+              GeekJeeyoung's project 🧊 #Fun Coding #Happy & Successful Life
+              Maker | Created by _Candice Han_ 🤸</span
+            >
+            <button class="moreBtn"><i class="fas fa-caret-down"></i></button>
           </div>
+          <span class="views">1M views • 1 month ago</span>
         </div>
-        <button class="subscribe">subscribe</button>
-      </div>
-    </section>
-    <section class="upNext">
-      <span class="title">Up next</span>
-      <ul>
-        <li class="item">
-          <img src="image/bichonFrise.jpg" alt="" />
-          <div class="info">
-            <span class="title">French dog | Bichon Frise</span>
-            <span class="name">GeekJeeyoung by Candice Han</span>
-            <span class="views">2K views</span>
+        <!-- Actions -->
+        <ul class="actions">
+          <li>
+            <button>
+              <i class="active fas fa-thumbs-up"></i><span>1K</span>
+            </button>
+          </li>
+          <li>
+            <button><i class="fas fa-thumbs-down"></i><span>0</span></button>
+          </li>
+          <li>
+            <button><i class="fas fa-share"></i><span>Share</span></button>
+          </li>
+          <li>
+            <button><i class="fas fa-plus"></i><span>Save</span></button>
+          </li>
+          <li>
+            <button>
+              <i class="fab fa-font-awesome-flag"></i><span>Report</span>
+            </button>
+          </li>
+        </ul>
+        <!-- Channel Description -->
+        <div class="channel">
+          <div class="metadata">
+            <img src="image/jeeyoung_square.png" alt="" />
+            <div class="info">
+              <span class="name">GeekJeeyoung by Candice Han</span>
+              <span class="subscribers">1K subscribers</span>
+            </div>
           </div>
-          <button class="moreBtn">
-            <i class="fas fa-ellipsis-v"></i>
-          </button>
-        </li>
-        <li class="item">
-          <img src="image/koreanJindo.png" alt="" />
-          <div class="info">
-            <span class="title">Korean dog | Korean Jindo</span>
-            <span class="name">GeekJeeyoung by Candice Han</span>
-            <span class="views">3K views</span>
-          </div>
-          <button class="moreBtn">
-            <i class="fas fa-ellipsis-v"></i>
-          </button>
-        </li>
-        <li class="item">
-          <img src="image/shibaInu.jpg" alt="" />
-          <div class="info">
-            <span class="title">Japanese dog | Shiba Inu</span>
-            <span class="name">GeekJeeyoung by Candice Han</span>
-            <span class="views">1K views</span>
-          </div>
-          <button class="moreBtn">
-            <i class="fas fa-ellipsis-v"></i>
-          </button>
-        </li>
-      </ul>
-    </section>
+          <button class="subscribe">subscribe</button>
+        </div>
+      </section>
+      <section class="upNext">
+        <div class="title">Up next</div>
+        <ul class="item-list">
+          <li class="item">
+            <div class="image"><img src="image/bichonFrise.jpg" alt="" /></div>
+            <div class="info">
+              <span class="title">French dog | Bichon Frise</span>
+              <span class="name">GeekJeeyoung by Candice Han</span>
+              <span class="views">2K views</span>
+            </div>
+            <button class="moreBtn">
+              <i class="fas fa-ellipsis-v"></i>
+            </button>
+          </li>
+          <li class="item">
+            <div class="image">
+              <img src="image/koreanJindo.jpg" alt="" />
+            </div>
+            <div class="info">
+              <span class="title">Korean dog | Korean Jindo</span>
+              <span class="name">GeekJeeyoung by Candice Han</span>
+              <span class="views">3K views</span>
+            </div>
+            <button class="moreBtn">
+              <i class="fas fa-ellipsis-v"></i>
+            </button>
+          </li>
+          <li class="item">
+            <div class="image">
+              <img src="image/shibaInu.jpg" alt="" />
+            </div>
+            <div class="info">
+              <span class="title">Japanese dog | Shiba Inu</span>
+              <span class="name">GeekJeeyoung by Candice Han</span>
+              <span class="views">1K views</span>
+            </div>
+            <button class="moreBtn">
+              <i class="fas fa-ellipsis-v"></i>
+            </button>
+          </li>
+        </ul>
+      </section>
+    </div>
   </body>
 </html>
