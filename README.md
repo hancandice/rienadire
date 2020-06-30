@@ -34,7 +34,12 @@
     - [How to Build an E-commerce Website with Django and Python](https://www.youtube.com/watch?v=YZvRrldjf1Y)
 
 - ### 📖 Java
+
   - 자바 공부
     - [점프 투 자바 8장 / 9장](https://wikidocs.net/195)
-    - [자바 리듬게임 만들기](https://www.youtube.com/watch?v=xs92kqU2YWg&list=PLRx0vPvlEmdDySO3wDqMYGKMVH4Qa4QhR)
+    - [자바 리듬게임 만들기](https://www.youtube.com/watch?v=xs92kqU2YWg&list=PLRx0vPvlEmdDySO3wDqMYGKMVH4Qa4QhR) 👯‍♀️
     - [Java game programming tutorial for AP students/equivalent level - In one video!](https://www.youtube.com/watch?v=lDzKX3djE-M)
+
+- ### 🐣 C 언어
+  - C 언어 공부
+    - [나동빈 C 언어 기초 강좌](https://www.youtube.com/watch?v=eYDTfvE9c1s&list=PLRx0vPvlEmdDNHeulKC6JM25MmZVS_3nT&index=5)
