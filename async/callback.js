@@ -3,6 +3,7 @@
 // Javascript is synchronous.
 
 // Callback Hell example
+
 class UserStorage {
   loginUser(id, password, onSuccess, onError) {
     setTimeout(() => {
